@@ -1,0 +1,16 @@
+{
+    "name": "drift",
+    "version": "0.0.1",
+    "author": "Matt DesLauriers <mattd@jam3.com>",
+    "description": "drift.js is a simple fluid dynamics framework for JavaScript Canvas and WebGL applications.",
+    "contributors": [],
+    "dependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt-contrib-uglify": "~0.2.0",
+        "grunt-contrib-jshint": "~0.6.3",
+        "grunt-contrib-concat": "~0.3.0",
+        "jquery": "~1.8.3",
+        "jsoop": "~0.3.3"
+    }
+}

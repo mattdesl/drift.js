@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <title>Drift</title>
+<!--    <link rel="stylesheet" href="/css/normalize.min.css">-->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    
+<style>
+body {
+  background:#333;
+}
+
+canvas {
+  background:#fff;
+  width:100px;
+  height:100px;
+  margin:0 auto;
+  display:block;
+}
+</style>
+
+<script>
+    var WIDTH = 500;
+    var HEIGHT = 250;
+    
+    $(function() {
+        var canvas = $("<canvas>", { id: "canvas" });
+        
+        canvas[0].width = WIDTH;
+        canvas[0].height = HEIGHT;
+        
+        canvas.appendTo($("#container"));    
+        
+        
+    });
+    
+</script>
+      
+  </head>
+    
+  <body>
+      <div id="container"></div>
+  </body>
+    
+    
+</html>
